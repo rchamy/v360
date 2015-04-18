@@ -7,7 +7,7 @@ resp.writeHead(200, {'content-type': 'text/plain'});
 resp.write('Peticion recibida en el servidor.');
 resp.end();
 }
-server.on('request', control).listen(8080);
+server.on('request', control).listen(80);
 console.log('Servidor inicializado');
 }
 exports.inicializar = inicializar; //Exportamos la función
