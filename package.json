@@ -1,0 +1,26 @@
+{
+  "name": "v360",
+  "version": "1.0.0",
+  "description": "Aplicacion nodejs para la captura de video desde raspberry pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchamy/v360.git"
+  },
+  "keywords": [
+    "v360",
+    "nodejs",
+    "raspberry",
+    "camera"
+  ],
+  "author": "Rodrigo Chamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchamy/v360/issues"
+  },
+  "homepage": "https://github.com/rchamy/v360"
+}
